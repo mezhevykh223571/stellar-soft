@@ -1,0 +1,35 @@
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.film-title {
+  margin-bottom: 20px;
+}
+
+.film-description {
+  margin-bottom: 5px;
+}
+
+.col-title {
+  font-weight: 500;
+}
+
+.archive-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.archive-nav .pagination {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.archive-nav .pagination--disabled {
+  margin-bottom: 0;
+}

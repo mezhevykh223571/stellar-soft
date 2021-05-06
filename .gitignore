@@ -1,0 +1,14 @@
+*.log
+.idea/
+wp-config.php
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/plugins/hello.php
+wp-admin/install.php
+/.htaccess
+/license.txt
+/readme.html
+/sitemap.xml
+/sitemap.xml.gz
+/robots.txt
