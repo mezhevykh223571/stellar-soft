@@ -33,10 +33,6 @@ function pagination() {
             $active = 'active';
           }
 
-          if ($paged === 0 && $key === 0) {
-            $active = 'active';
-          }
-
           echo '<li class="' . $active . '">' . $page . '</li>';
         }
         ?>
