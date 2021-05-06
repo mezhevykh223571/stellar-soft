@@ -9,7 +9,6 @@
         endif;
         ?>
       <?php endwhile; ?>
-
     </main>
   </div>
 

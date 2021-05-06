@@ -19,7 +19,7 @@ function pagination() {
       <ul class="pagination pagination--disabled">
         <li class="disabled hidden-xs">
         <span aria-hidden="true">
-          <?php echo __('Страница', 'unite-child'), ' ', ($paged === 0) ? 1 : $paged, ' ', __('из', ''), ' ', $wp_query->max_num_pages; ?>
+          <?php echo __('Страница', 'unite-child'), ' ', ($paged === 0) ? 1 : $paged, ' ', __('из', 'unite-child'), ' ', $wp_query->max_num_pages; ?>
         </span>
         </li>
       </ul>
