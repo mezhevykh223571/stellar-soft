@@ -7,7 +7,7 @@ function pagination() {
       'base' => get_pagenum_link(1) . '%_%',
       'type' => 'array',
       'total' => $wp_query->max_num_pages,
-      'format' => 'page/%#%',
+      'format' => '/page/%#%',
       'current' => max(1, get_query_var('paged')),
       'prev_text' => __('&laquo;'),
       'next_text' => __('&raquo;'),
